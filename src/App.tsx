@@ -968,8 +968,8 @@ function MvpHome({ go }: { go: (page: Page) => void }) {
         <aside className="hero-discovery-card mvp-hero-card">
           <img
             alt="Architectural stone, timber, and surface material samples"
-            className="mvp-card-image"
-            src="/images/materials.jpg"
+            className="mvp-card-image hero-box-img"
+            src="/images/hero-box-img.jpeg"
           />
           <div className="hero-card-body">
             <Eyebrow>One unified request</Eyebrow>
