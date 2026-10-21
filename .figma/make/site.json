@@ -1,0 +1,10 @@
+{
+  "description": "Discover and source premium architectural products and materials while connecting with industry professionals for tailored assistance and solutions.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
