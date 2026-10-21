@@ -940,7 +940,7 @@ function MvpHome({ go }: { go: (page: Page) => void }) {
         <div className="full-hero-overlay" />
         <div className="full-hero-content mvp-hero-content">
           <div className="full-hero-message mvp-hero-message">
-            <Eyebrow light>ArchiBOON Material Assistant</Eyebrow>
+            <Eyebrow light>ARCHI Boon Material Assistant</Eyebrow>
             <h1>
               You tell us what you need.
               <br />
@@ -960,7 +960,7 @@ function MvpHome({ go }: { go: (page: Page) => void }) {
             </Button>
           </div>
           <p className="mvp-principle">
-            You don’t have to know where to find it. Tell ArchiBOON what you
+            You don’t have to know where to find it. Tell ARCHI Boon what you
             need, and we’ll research the right resource.
           </p>
         </div>

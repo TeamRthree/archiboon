@@ -99,7 +99,7 @@ em { color: var(--blue); font-weight: 400; }
 .mvp-hero .full-hero-overlay { background: linear-gradient(to top, rgba(0,0,0,.92) 0%, rgba(0,0,0,.68) 38%, rgba(0,0,0,.28) 72%, transparent 100%); pointer-events: none; z-index: 1; }
 .mvp-hero-message { background: transparent; border-left: 3px solid var(--blue); padding: 22px 24px 20px; backdrop-filter: none; }
 .full-hero-message .eyebrow { color: #7ed8fb; margin-bottom: 12px; }
-.mvp-hero .full-hero-message .eyebrow { color: #000; font-weight: 700; }
+.mvp-hero .full-hero-message .eyebrow { color: #000; font-weight: 700; text-transform: none; }
 .full-hero-message h1 { color: white; font-size: clamp(54px, 5.7vw, 84px); line-height: .94; margin-bottom: 18px; text-shadow: 0 3px 25px rgba(0,0,0,.2); }
 .full-hero-message em { color: #79d5fa; }
 .full-hero-message > p { color: #f1f5f7; font-size: 14px; line-height: 1.7; margin-bottom: 0; max-width: 560px; }
@@ -127,11 +127,11 @@ em { color: var(--blue); font-weight: 400; }
 .hero-card-links button { align-items: flex-start; background: #f7f6f2; border: 0; border-right: 1px solid var(--border); cursor: pointer; display: flex; flex-direction: column; font-size: 9px; font-weight: 600; gap: 10px; justify-content: space-between; line-height: 1.4; min-height: 82px; padding: 12px; text-align: left; }
 .hero-card-links button:last-child { border-right: 0; }
 .hero-card-links button:hover { color: var(--blue); }
-.mvp-hero-content { max-width: 710px; }
+.mvp-hero-content { bottom: auto; max-width: 710px; top: 50%; transform: translateY(-50%); }
 .mvp-hero-actions { display: flex; gap: 10px; margin-top: 18px; }
 .mvp-hero-actions .button-secondary { border-color: rgba(255,255,255,.6); color: white; }
 .mvp-principle { color: #eef4f7; font-size: 13px; line-height: 1.7; margin: 16px 0 0; max-width: 610px; }
-.mvp-hero-card { width: 410px; }
+.mvp-hero-card { bottom: auto; top: 50%; transform: translateY(-50%); width: 410px; }
 .mvp-card-image { height: 145px; object-fit: cover; }
 .mvp-hero-card .hero-card-body p { font-size: 12px; }
 .mvp-request-types { border-top: 1px solid var(--border); display: grid; grid-template-columns: 1fr 1fr; }
@@ -703,7 +703,8 @@ em { color: var(--blue); font-weight: 400; }
   .hero-card-images button { height: 105px; }
   .hero-card-body h2 { font-size: 29px; }
   .mvp-hero { min-height: 1240px; }
-  .mvp-hero-content { max-width: none; }
+  .mvp-hero-content { max-width: none; top: auto; transform: none; }
+  .mvp-hero-card { top: auto; transform: none; }
   .mvp-hero-actions { align-items: stretch; flex-direction: column; }
   .mvp-hero-actions .button { width: 100%; }
   .mvp-principle { font-size: 14px; }
